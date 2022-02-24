@@ -12,7 +12,7 @@ ms.date: 11/22/2021
 
 Azure Purview uses **Collections** to organize and manage access across its sources, assets, and other artifacts. This article describes collections and access management in your Azure Purview account.
 
-## Collections
+## Collection
 
 A collection is a tool Azure Purview uses to group assets, sources, and other artifacts into a hierarchy for discoverability and to manage access control. All accesses to Azure Purview's resources are managed from collections in the Azure Purview account itself.
 
