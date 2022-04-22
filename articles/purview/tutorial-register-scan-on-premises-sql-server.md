@@ -24,6 +24,7 @@ In this tutorial, you'll learn how to:
 > * Register an on-premises SQL Server to Microsoft Purview.
 > * Scan the SQL Server.
 > * Browse your data catalog to view assets in your SQL Server.
+> 
 
 ## Prerequisites
 
