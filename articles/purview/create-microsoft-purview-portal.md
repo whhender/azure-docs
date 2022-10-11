@@ -20,6 +20,9 @@ For more information about the governance capabilities of Microsoft Purview, for
 
 ## Create an account
 
+> [!IMPORTANT]
+> If you have any [Azure Policies](../../governance/policy/overview.md) preventing creation of **Storage accounts** or **Event Hub namespaces**. First follow the [Microsoft Purview exception tag guide](../create-azure-purview-portal-faq.md) to create an exception for Microsoft Purview accounts. Otherwise you will not be able to deploy your Microsoft Purview account.
+
 1. Search for **Microsoft Purview** in the [Azure portal](https://portal.azure.com).
 
     :::image type="content" source="media/create-catalog-portal/purview-accounts-page.png" alt-text="Screenshot showing the purview accounts page in the Azure portal":::
