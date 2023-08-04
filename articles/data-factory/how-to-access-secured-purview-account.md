@@ -72,6 +72,10 @@ You can monitor the created managed private endpoints for Microsoft Purview at t
 - Go to **Manage** -> **Microsoft Purview** -> **Edit** to open your existing connected Microsoft Purview account. To see all the relevant private endpoints, you need to have at least **Reader** role on your Microsoft Purview account for Data Factory to retrieve the Microsoft Purview managed resources' information. Otherwise, you only see *account* private endpoint with warning.
 - Go to **Manage** -> **Managed private endpoints** where you see all the managed private endpoints created under the data factory. If you have at least **Reader** role on your Microsoft Purview account, you see Microsoft Purview relevant private endpoints being grouped together. Otherwise, they show up separately in the list.
 
+## Firewall
+
+If your [Microsoft Purview account has public access disabled for ingestion](/purview/catalog-private-link), lineage activities need to be run on an Azure IR, a [managed VNet Integration runtime](/purview/catalog-managed-vnet#deploy-managed-vnet-runtimes), or a [self-hosted integration runtime deployed on an Azure VNet](/purview/catalog-private-link-end-to-end#deploy-self-hosted-integration-runtime-ir-and-scan-your-data-sources). Data Factory lineage isn't available on self-hosted integration runtimes installed on networks without private endpoints.
+
 ## Next steps 
 
 - [Connect Data Factory to Microsoft Purview](connect-data-factory-to-azure-purview.md)
