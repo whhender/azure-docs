@@ -6,7 +6,7 @@ author: kromerm
 ms.author: makromer
 ms.subservice: data-flows
 ms.custom: synapse
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 09/25/2024
 ---
 
@@ -1875,7 +1875,7 @@ ___
 
 ### <code>random</code>
 <code><b>random(<i>&lt;value1&gt;</i> : integral) => long</b></code><br/><br/>
-Returns a random number given an optional seed within a partition. The seed should be a fixed value and is used with the partitionId to produce random values  
+Returns a random number given an optional seed within a partition. The seed should be a fixed value and is used with the partitionId to produce random values. Range is 0 through to 2^64^ − 1. 
 * ``random(1) == 1 -> false``
 ___
 
